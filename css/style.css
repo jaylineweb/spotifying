@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{margin:0;padding:0;font-family:spotify-circular, Helvetica, Arial, sans-serif;color:#ffffff;}
+
+a{color:#ffffff;text-decoration:none;}
+a:hover{color:#1ed760;}
+
+.skip{overflow:hidden;position:absolute;width:1px;height:1px;font-size:0;line-height:0;}
+
+/* header 영역 */
+.nav{display:flex;align-items:center;justify-content:space-around;height:80px;background-color:#000000;}
+.nav .nav-item{padding:28px 17px;font-weight:700;transition:color 0.4s ease;}
+/* .nav a:hover{color:#1ed760;} */
+/* main 영역 */
+.main{display:flex;justify-content:center;align-items:center;height:969px;background:#2941ab url(../image/bursts.svg) 46% 4%;}
+
+.main-container{
+}
+.headline{padding-bottom:40px;position:relative;left:220px;font-size:146px;line-height:166px;color:#1ed760;font-weight:900;text-align:center;}
+.headline-first{position:relative;left:-2.5em;}
+
+.sub-headline{padding-bottom:40px;color:#1ed760;text-align:center;}
+
+/* button */
+.button-area{text-align:center;}
+.button-style{display:inline-block;padding:14px 32px;border:0;border-radius:500px;background-color:#1ed760;font-size:inherit;font-weight:700;color:#2941ab;}
+.button-style:hover{transform:scale(1.07);background-color:#2de26d;}
+
+/* footer 영역 */
+.footer{height:530px;background-color:#000000;}
